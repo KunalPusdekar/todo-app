@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Todo App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple and responsive Todo application built with React, allowing users to manage tasks efficiently with authentication, prioritization, and the ability to mark tasks as completed or delete them. Additionally, the app will integrate with a public API (e.g., weather API) in the future to display data relevant to tasks, such as showing current weather conditions for outdoor-related tasks.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Authentication**: Login to access the todo list.
+- **Add Todo**: Add a new task with a title, description, and priority (Low, Medium, High).
+- **Edit Todo**: Edit existing tasks' title, description, and priority.
+- **Delete Todo**: Delete tasks from the list.
+- **Complete Todo**: Mark tasks as completed with a timestamp.
+- **Responsive Design**: Mobile-first approach with support for tablet and desktop layouts.
+- **Local Storage**: Saves todos and completed tasks in the browser’s local storage for persistence.
+- **Weather API Integration** (Coming Soon!): Display weather information relevant to tasks. For example, if a task is related to an outdoor activity, the app will show the current weather conditions.
 
-### `npm start`
+## Screenshots
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Include a few screenshots here to showcase the app's UI and functionality.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- **React**: A JavaScript library for building user interfaces.
+- **CSS**: For styling, with Flexbox and Grid layouts.
+- **React Icons**: For icons (AiOutlineDelete, AiOutlineEdit, BsCheckLg).
+- **Local Storage**: For persisting data across sessions.
+- **Weather API Integration** (Future Feature): Fetch and display real-time weather data relevant to tasks.
+  
+## API Integration (Coming Soon)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+In the future, the Todo app will integrate with a public API (such as a weather API) to provide useful information related to tasks. For example:
 
-### `npm run build`
+- **Outdoor Tasks**: If a task is related to an outdoor activity (e.g., hiking, running), the app will fetch the current weather conditions and display them on the task detail page.
+- **Weather Data**: The app will show real-time weather information such as temperature, humidity, and precipitation probability to help users plan tasks accordingly.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Example Use Case:**
+- Task: "Go for a run in the park."
+- The app will fetch and display the current weather in your area (e.g., temperature, wind speed, and precipitation), helping you decide if it's a good time for the run.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To run this project locally, follow these steps:
 
-### `npm run eject`
+1. Clone the repository:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   ```bash
+   git clone https://github.com/KunalPusdekar/todo-app.git
