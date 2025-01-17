@@ -1,0 +1,123 @@
+.wrapper {
+  text-align: center;
+  padding: 1.5rem;
+  border-radius: 10px;
+  width: 100%;
+  margin: 2% auto;
+  overflow: hidden;
+}
+
+/* Horizontal Weather Card */
+.card {
+  display: flex;
+  flex-direction: row; /* Arrange content horizontally */
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #222;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: auto;
+}
+
+.card img {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.temp {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #00e67a;
+}
+
+.bottom-details {
+  display: flex;
+  gap: 20px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.column i {
+  font-size: 1.5rem;
+  color: #00e67a;
+}
+
+.column .details span {
+  font-weight: bold;
+  color: #00e67a;
+}
+
+/* Input Section Styling */
+.input-part {
+  margin-top: 2rem; /* Space between app name and input box section */
+}
+
+.input-part .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-part .content input {
+  width: 100%;
+  max-width: 400px;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #666;
+  border-radius: 5px;
+  background: #3a3a3a;
+  color: white;
+  outline: none;
+  transition: background-color 0.3s ease, outline 0.3s ease;
+  margin-bottom: 1.5rem; /* Space below input box */
+}
+
+.input-part .content input::placeholder {
+  color: #a1a1a1;
+  font-style: italic;
+}
+
+.input-part .content input:focus {
+  background: #333;
+  outline: 2px solid #00e67a;
+}
+
+/* Styling for Buttons */
+.input-part .content button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  color: white;
+  background: #00e67a;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 0.75rem 0; /* Add spacing between buttons */
+}
+
+.input-part .content button:hover {
+  background: #04c46a;
+}
+
+/* Separator between input and buttons */
+.input-part .content .separator {
+  margin: 1.5rem 0; /* Increase gap between input box and buttons */
+  height: 1px;
+  background: #666;
+  width: 100%;
+  max-width: 400px;
+}

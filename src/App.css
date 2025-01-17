@@ -205,3 +205,35 @@ h1 {
 .priority option:hover {
   background: #4e4e4e;
 }
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.weather-icon {
+  font-size: 2rem;
+  color: #00e67a;
+  cursor: pointer;
+}
+
+.weather-icon:hover {
+  color: #04c46a;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.weather-icon {
+  font-size: 2rem;
+  color: #00e67a;
+  cursor: pointer;
+}
+
+.weather-icon:hover {
+  color: #04c46a;
+}
